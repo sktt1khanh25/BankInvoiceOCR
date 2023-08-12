@@ -1,0 +1,8 @@
+train: ../yolov5/data/train_data/images/train/  # train images (relative to 'path') 128 images
+val: ../yolov5/data/train_data/images/val/ # val images (relative to 'path') 128 images
+
+
+# Classes
+nc:  7 # number of classes
+names: ['STK nguồn', 'STK đích', 'nội dung chuyển khoản',
+'số tiền','thời gian chuyển khoản', 'tên người chuyển khoản','tên người nhận']  # class names
